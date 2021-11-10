@@ -14,9 +14,6 @@ Naruto quotes can be epic to the point where you become pumped up to conquer cha
 ### The Project Naruto Quote
 This will be an application DIO (digital innovation one) in this challenge React concepts, develop knowledge with the test tool in react, knowledge on components.
 
-- It's possible to find restaurants and food nearby.
-- You can do a custom search for the food you would like.
-- Address and phone number of the restaurants.
 
 ## 🧪 Technologies
 
@@ -31,6 +28,11 @@ Application developed using the following technologies:
 ### Requirements
 
 - You need to install both [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/) to run this project.
+- You need to access [Naruto Api server](https://github.com/celso-henrique/naruto-quotes-server) to run this server project.
+- You neer to install  [Python](https://www.python.org/).
+
+## ⚠️ Warning
+You need to download the server locally from the link provided and follow the configuration steps.
 
 Clone the project and access the folder.
 
@@ -49,21 +51,8 @@ $ yarn start or npm start
 ```
 The app will be available for access on your browser at http://localhost:3000
 
-## ⚠️ Warning
 
-Error "For development purposes only" : Google Maps is no longer free. You have to associate a credit card so that you can get billed if your site has requests that exceed the $200 credit they give you monthly for free. That is why you get the watermarked maps. It's returned when any of the following is true:
 
-- The request is missing an API key.
-- Billing has not been enabled on your account.
-- The provided billing method is invalid (for example an expired credit card).
-- A self-imposed daily limit has been exceeded.
-
-So if you're still getting a restricted usage message after you've enabled billing, find out what API you need exactly for the features you want to offer, and check if it's enabled. The API settings are annoyingly hard to find.
-
-- Go to this link: https://console.developers.google.com/apis/dashboard.
-- Then you select your project in the dropdown.
-- Go to library on the left pane.
-- Browse the available APIs and enable the one you need.
 
 ## 📝 License
 
